@@ -1,1 +1,1 @@
-web: npm start --production  
+web: grunt init; npm start --production  
