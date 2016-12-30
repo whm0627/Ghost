@@ -1,0 +1,16 @@
+{
+  "name": "ghost",
+  "description": "ghost",
+  "keywords": [
+    "productivity",
+    "HTML5"
+  ],
+  "dokku":{
+    "plugins":[
+      "mariadb"
+    ],
+    "volumes":[
+      {"host":"/home/dokku/$APP/images","app":"/app/content/images"}
+    ]
+  }
+}
