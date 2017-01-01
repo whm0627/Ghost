@@ -2,7 +2,7 @@
 // Setup your Ghost install for various [environments](http://support.ghost.org/config/#about-environments).
 
 // Ghost runs in `development` mode by default. Full documentation can be found at http://support.ghost.org/config/
-
+console.log("config file loadded!!!!!!!");
 var path = require('path'),
     url = require('url'),
     db_url = url.parse(process.env.DATABASE_URL),
