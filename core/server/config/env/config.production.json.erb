@@ -1,0 +1,22 @@
+{
+    "url": "http://hemingw.com",
+    "database": {
+        "connection": {
+            "filename": "content/data/ghost.db"
+        },
+        "debug": false
+    },
+    "server":{
+      "port":"<%=ENV['STUFF']%>"
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "logging": {
+        "level": "info",
+        "rotation": {
+            "enabled": true
+        },
+        "transports": ["file"]
+    }
+}
