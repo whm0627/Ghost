@@ -9,6 +9,9 @@
     "paths": {
         "contentPath": "content/"
     },
+    "server":{
+      "port":"5000"
+    },
     "logging": {
         "level": "info",
         "rotation": {
