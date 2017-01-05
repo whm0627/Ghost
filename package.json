@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "./core/index",
   "scripts": {
-    "postinstall": "grunt init --force && knex-migrator init",
+    "postinstall": "grunt init --force && grunt prod --force && knex-migrator init",
     "start": "node index",
     "test": "grunt validate --verbose"
   },
